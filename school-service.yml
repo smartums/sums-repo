@@ -3,7 +3,7 @@ spring:
     name: school-service
       
   datasource:
-    url: jdbc:mysql://localhost:3306/SCHOOL_SERVICE
+    url: jdbc:mysql://localhost:/SCHOOL_SERVICE
     username: 
     password: 
     driver-class-name: com.mysql.jdbc.Driver
