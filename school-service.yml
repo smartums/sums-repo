@@ -15,8 +15,8 @@ spring:
     hibernate:
       ddl-auto: update
     
-server:
-  port: 8000
+#server:
+ # port: 8000
   
 eureka:
   client:
