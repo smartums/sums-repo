@@ -5,10 +5,10 @@ spring:
     hibernate:
       ddl-auto: update
       
-  datasource:
-    url: jdbc:mysql://localhost:3306/SCHOOL_SERVICE
-    username: root
-    password: root
+  #datasource:
+   # url: jdbc:mysql://localhost:3306/SCHOOL_SERVICE
+    #username: root
+    #password: root
     
 server:
   port: 8000
