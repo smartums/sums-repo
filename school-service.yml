@@ -15,10 +15,10 @@ spring:
     hibernate:
       ddl-auto: update
     
-#server:
- # port: 8000
+server:
+  port: 8000
   
 eureka:
   client:
     service-url:
-      defaultZone: http://mks-discovery-server-brave-hedgehog.cfapps.io/eureka
+      defaultZone: http://localhost:7777/eureka
